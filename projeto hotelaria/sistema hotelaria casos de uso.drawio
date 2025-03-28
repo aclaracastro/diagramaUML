@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Página-1" id="Sjxw3BBh_AV_Lrab6UxN">
-    <mxGraphModel>
+    <mxGraphModel dx="926" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-1" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="225" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-2" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="225" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-6" value="Casos de uso" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="580" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-7" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="-80" y="150" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-8" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="210" y="150" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-10" value="Cadastrar cliente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="82.5" y="60" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-11" value="Consultar reservas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="85" y="180" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-12" value="Cadastrar quarto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="82.5" y="120" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-13" value="Processar check in/ check out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="82.5" y="240" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-14" value="Gerar relatórios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="85" y="300" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-15" value="Gerenciar pagamentos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="82.5" y="360" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-16" value="Alterar status do quarto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="82.5" y="420" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-17" value="Realizar cadastro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="60" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-18" value="Fazer login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="120" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-19" value="Pesquisar quartos disponíveis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="180" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-20" value="Fazer reserva" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="240" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-21" value="Realizar pagamento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="300" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-22" value="Fazer check in online" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="372.5" y="360" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-23" value="Consultar histórico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xzn3LHg3Rwidv29jYQMw-6">
+          <mxGeometry x="370" y="420" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzn3LHg3Rwidv29jYQMw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="268" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzn3LHg3Rwidv29jYQMw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xzn3LHg3Rwidv29jYQMw-2" target="xzn3LHg3Rwidv29jYQMw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
